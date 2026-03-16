@@ -2,7 +2,7 @@
 A CUDA extension for Mahalanobis distance-based top-K matching, outperforming cosine similarity on complex multi-attribute queries, RAG retrieval pipelines, and GenAI applications
 
 First Public Release: 2026-03-16  
-Last Updated: 2026-03-16
+Last Updated: 2026-03-17
 
 ## Motivation
 
