@@ -50,7 +50,8 @@ The goal is shared solutions, not shared resources.
 For commercial licensing: leave a message on [Discussions](../../discussions)
 
 ## Patent Information
-Korean Patent No: 10-2937626
+Korean Patent No: 10-2937626  
+DOI: https://doi.org/10.8080/1020250102273 
 
 ## Copyright
 
