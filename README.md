@@ -53,6 +53,21 @@ For commercial licensing: leave a message on [Discussions](../../discussions)
 Korean Patent No: 10-2937626  
 DOI: https://doi.org/10.8080/1020250102273 
 
+(registered March 6, 2026), titled *"Method and Device for Determining the Reliability of AI Model Outputs."*
+
+**Core claims covered by this patent:**
+
+- Mapping AI model outputs to embedding space to obtain embedding vectors
+- Computing a covariance matrix from a reference vector pool
+- Calculating **Mahalanobis distance** between reference vectors and embedding vectors based on the covariance matrix
+- Selecting top-k reference vectors sorted by Mahalanobis distance
+- Assigning ranks to selected k vectors in ascending order
+- Computing **softmax entropy** and **probability margin** (rank-1 vs rank-2) from the resulting probability distribution
+- Determining output reliability based on entropy and probability margin
+- Applicable to text, image, and multimodal domains (CLIP-based embeddings supported)
+
+Any commercial implementation of the above pipeline without a license agreement constitutes patent infringement.
+
 ## Copyright
 
 Copyright © 2026 Klastrovanie Co., Ltd. All rights reserved.
