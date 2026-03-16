@@ -49,6 +49,9 @@ The goal is shared solutions, not shared resources.
 
 For commercial licensing: leave a message on [Discussions](../../discussions)
 
+## Patent Information
+Korean Patent No: 10-2937626
+
 ## Copyright
 
 Copyright © 2026 Klastrovanie Co., Ltd. All rights reserved.
