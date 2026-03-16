@@ -40,7 +40,7 @@ Navigate to the benchmarks folder and run the provided Jupyter notebooks step by
 
 The practical effect of larger margin is clear in the ranking itself: Mahalanobis suppresses off-target COCO images, whereas cosine similarity tends to retain them near the top because the score gaps are too small.    
 
-Beyond qualitative image retrieval, the suggested method also improved CKA by 4.39% on the Adult dataset at k=25, suggesting that its advantage extends to structural top-k retrieval beyond visual examples.
+On the Adult dataset at k=25, KlastroKnowledge improved CKA from 0.910373 to 0.928622 (+0.018249 absolute, ~2.00% relative) while reducing mean trace from 59.435885 to 56.828646 (4.39% average reduction) compared with cosine matching.
 
 
 ## License
