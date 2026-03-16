@@ -38,6 +38,8 @@ pip install .
 
 Navigate to the benchmarks folder and run the provided Jupyter notebooks step by step.  
 
+The practical effect of larger margin is clear in the ranking itself: Mahalanobis suppresses off-target COCO images, whereas cosine similarity tends to retain them near the top because the score gaps are too small.
+
 
 ## License
 
