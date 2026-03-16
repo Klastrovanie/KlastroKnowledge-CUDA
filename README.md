@@ -11,7 +11,7 @@ This library proposes Mahalanobis distance as a principled alternative to cosine
 Mahalanobis distance is named after the Indian statistician Prasanta Chandra Mahalanobis.   
 For more details, see Wikipedia (https://en.wikipedia.org/wiki/Prasanta_Chandra_Mahalanobis)
 
-Also, regarding the Mahalanobis distance, there is a highly recommended lecture on this topic is also available on YouTube (https://youtu.be/rBv39pK1iEs?si=IVsIlhY1ovFZqPrf&t=1328)  by professor Gary King of Harvard University.
+Also, regarding the Mahalanobis distance, there is a highly recommended lecture on this topic is also available on YouTube (https://youtu.be/rBv39pK1iEs?si=JhVeCs2nUTK-8Gdg&t=1346)  by professor Gary King of Harvard University.
 
 ## Quick Start
 
