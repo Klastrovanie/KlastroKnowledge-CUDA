@@ -44,7 +44,7 @@ On the Adult dataset at k=25, KlastroKnowledge improved CKA from 0.910373 to 0.9
 
 ### Context Engineering Demo
 
-It was implemented through context engineering, allowing the default user context to be changed without retraining the AI.
+Through context engineering, KlastroKnowledge was used to identify the optimal match without retraining the AI.
 
 Demo #1 https://youtu.be/ALOvoPxTbYA  
 Demo #2 https://youtu.be/mN0v5Yd8kz0  
