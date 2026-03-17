@@ -36,19 +36,26 @@ pip install .
 
 ### Benchmarks
 
-Navigate to the benchmarks folder and run the provided Jupyter notebooks step by step.  
+Navigate to the benchmarks folder and run the provided Jupyter notebooks step by step. 
 
-The practical effect of larger margin is clear in the ranking itself: Mahalanobis suppresses off-target COCO images, whereas cosine similarity tends to retain them near the top because the score gaps are too small.    
-
-On the Adult dataset at k=25, KlastroKnowledge improved CKA from 0.910373 to 0.928622 (+0.018249 absolute, ~2.00% relative) while reducing mean trace from 59.435885 to 56.828646 (4.39% average reduction) compared with cosine matching.
+#### CLIP Embeddings (COCO val2017)
+- Margin(1-2): **18x larger** than cosine similarity
+- Softmax Entropy: **3x lower** than cosine similarity
+- Mahalanobis suppresses off-target images that cosine retains near the top,
+  because cosine score gaps are too small to discriminate effectively.
+   
+#### Tabular Data (UCI Adult Dataset, k=25)
+- CKA improved from 0.910373 → 0.928622 (**+0.018249 absolute, ~2.00% relative**)
+- Mean covariance trace reduced from 59.435885 → 56.828646 (**4.39% average reduction**)
+- Consistent advantage observed across k=15 and k=25
 
 ### Context Engineering Demo
 
 Through context engineering, KlastroKnowledge was used to identify the optimal match without retraining the AI.
 
-Demo #1 https://youtu.be/ALOvoPxTbYA  
-Demo #2 https://youtu.be/mN0v5Yd8kz0  
-Demo #3 https://youtu.be/9BXmCXiOXO4
+- [Demo #1](https://youtu.be/ALOvoPxTbYA)
+- [Demo #2](https://youtu.be/mN0v5Yd8kz0)
+- [Demo #3](https://youtu.be/9BXmCXiOXO4)
 
 
 ## License
