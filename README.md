@@ -42,6 +42,14 @@ The practical effect of larger margin is clear in the ranking itself: Mahalanobi
 
 On the Adult dataset at k=25, KlastroKnowledge improved CKA from 0.910373 to 0.928622 (+0.018249 absolute, ~2.00% relative) while reducing mean trace from 59.435885 to 56.828646 (4.39% average reduction) compared with cosine matching.
 
+### Context Engineering Demo
+
+It was implemented through context engineering, allowing the default user context to be changed without retraining the AI.
+
+Demo #1 https://youtu.be/ALOvoPxTbYA  
+Demo #2 https://youtu.be/mN0v5Yd8kz0  
+Demo #3 https://youtu.be/9BXmCXiOXO4
+
 
 ## License
 
