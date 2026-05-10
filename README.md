@@ -87,6 +87,59 @@ DOI: https://doi.org/10.8080/1020250102273
 
 Any commercial implementation of the above pipeline without a license agreement constitutes patent infringement.
 
+## Pricing
+
+### Open Source — Free
+AGPL v3. Research, education, and non-commercial use.
+Network use triggers source disclosure obligation under AGPL v3.
+
+### Commercial License
+
+Per-unit annual license. One license required per **business unit 
+or legal entity** that uses the software.
+
+| Headcount (per unit) | Standard | OEM |
+|----------------------|----------|-----|
+| Up to 50 | €3,000 | €30,000 |
+| Up to 100 | €8,000 | €60,000 |
+| Up to 200 | €20,000 | €120,000 |
+| Up to 500 | €50,000 | €250,000 |
+| Up to 1,000 | €100,000 | €500,000 |
+| 1,000+ | Contact us | Contact us |
+
+**Standard** — Use in your own products within the licensed 
+business unit or legal entity. **Redistribution to third parties 
+is not permitted.**
+
+**OEM** — Redistribute, white-label, or embed in products 
+delivered to your customers.
+
+#### License Terms
+
+- **Per-unit licensing**: One license per using business unit 
+  or legal entity.
+- **Headcount verification**: Based on publicly disclosed 
+  corporate filings.
+- **Contract duration**: Pricing tier remains valid for the 
+  full contract term. Tier changes apply at the next renewal.
+- **Multi-unit customers**: Contact us for volume terms.
+
+#### What's Included
+
+All commercial plans:
+- Patent license (KR Patent 10-2937626)
+- Removal of AGPL v3 obligations
+- Email support
+
+**Standard adds:** Multi-environment deployment, priority support.  
+**OEM adds:** Redistribution rights, white-labeling, 
+patent indemnification, custom SLA, roadmap input.
+
+#### How to Inquire
+For commercial licensing, contact us via 
+[Discussions](https://github.com/Klastrovanie/KlastroKnowledge-CUDA/discussions).
+We typically respond within 2 business days.
+
 ## Copyright
 
 Copyright © 2026 Klastrovanie Co., Ltd. All rights reserved.
