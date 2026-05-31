@@ -27,6 +27,15 @@ conda activate <env_name>
 bash make_package.sh cuda12   # or cuda11, cuda13
 ```
 
+### CUDA Compatibility
+
+KlastroKnowledge-CUDA has been tested up to CUDA 13.
+
+The package is distributed as source-build software through GitHub. Users are expected to build the CUDA extension in their own environment using a compatible NVIDIA driver, CUDA Toolkit, PyTorch version, and GPU architecture.
+
+Compatibility with future CUDA Toolkit versions, including CUDA 14 or later, may require updates to build flags, PyTorch extension settings, or supported GPU architecture targets.
+
+
 ### 3. Install 
 ```bash
 # After build, go to either of the generated folders, or cd klastroknowledge_cuda12_release  
@@ -106,6 +115,8 @@ or legal entity** that uses the software.
 | Up to 500 | €50,000 | €250,000 |
 | Up to 1,000 | €100,000 | €500,000 |
 | 1,000+ | Contact us | Contact us |
+
+**Currency:** Prices are listed in EUR. For customers contracting in USD, the corresponding USD invoice amount will be determined based on the EUR price table and the applicable exchange rate at the time of quotation or invoice issuance.
 
 **Standard** — Use in your own products within the licensed 
 business unit or legal entity. **Redistribution to third parties 
