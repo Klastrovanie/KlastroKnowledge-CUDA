@@ -1,8 +1,10 @@
 # KlastroKnowledge-CUDA
 A CUDA extension for Mahalanobis distance-based top-K matching, outperforming cosine similarity on complex multi-attribute queries, RAG retrieval pipelines, and GenAI applications
 
+[![Available on AWS Marketplace](https://img.shields.io/badge/AWS%20Marketplace-Available-FF9900?logo=amazonaws&logoColor=white)](https://aws.amazon.com/marketplace/pp/prodview-xbm7jlntjlzry)
+
 First Public Release: 2026-03-16  
-Last Updated: 2026-03-17
+Last Updated: 2026-10-21
 
 ## Motivation
 
@@ -104,50 +106,18 @@ Network use triggers source disclosure obligation under AGPL v3.
 
 ### Commercial License
 
-Per-unit annual license. One license required per **business unit 
-or legal entity** that uses the software.
+The commercial edition of KlastroKnowledge is available on **AWS Marketplace**:
 
-| Headcount (per unit) | Standard | OEM |
-|----------------------|----------|-----|
-| Up to 50 | €3,000 | €30,000 |
-| Up to 100 | €8,000 | €60,000 |
-| Up to 200 | €20,000 | €120,000 |
-| Up to 500 | €50,000 | €250,000 |
-| Up to 1,000 | €100,000 | €500,000 |
-| 1,000+ | Contact us | Contact us |
+**[KlastroKnowledge on AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-xbm7jlntjlzry)**
 
-**Currency:** Prices are listed in EUR. For customers contracting in USD, the corresponding USD invoice amount will be determined based on the EUR price table and the applicable exchange rate at the time of quotation or invoice issuance.
+It is a production-ready container (MCP server and batch job) that runs in your own AWS account: exact Mahalanobis matching on the GPU, with inputs and outputs on Amazon S3, plan-based job sizes and email support. Plans, pricing and the End User License Agreement are shown on the listing, and billing goes through your AWS account.
 
-**Standard** — Use in your own products within the licensed 
-business unit or legal entity. **Redistribution to third parties 
-is not permitted.**
+The commercial edition is licensed under its own EULA, not under the AGPL v3, so AGPL obligations do not apply to its use.
 
-**OEM** — Redistribute, white-label, or embed in products 
-delivered to your customers.
-
-#### License Terms
-
-- **Per-unit licensing**: One license per using business unit 
-  or legal entity.
-- **Headcount verification**: Based on publicly disclosed 
-  corporate filings.
-- **Contract duration**: Pricing tier remains valid for the 
-  full contract term. Tier changes apply at the next renewal.
-- **Multi-unit customers**: Contact us for volume terms.
-
-#### What's Included
-
-All commercial plans:
-- Patent license (KR Patent 10-2937626)
-- Removal of AGPL v3 obligations
-- Email support
-
-**Standard adds:** Multi-environment deployment, priority support.  
-**OEM adds:** Redistribution rights, white-labeling, 
-patent indemnification, custom SLA, roadmap input.
+**OEM, redistribution, or use of this open-source kernel without AGPL v3 obligations** (for example embedding it in products delivered to your customers), including patent licensing (KR Patent 10-2937626): contact **contact@klastrovanie.com**.
 
 #### How to Inquire
-For commercial licensing, contact us via 
+For commercial licensing or private offer, contact us via 
 [Discussions](https://github.com/Klastrovanie/KlastroKnowledge-CUDA/discussions).
 We typically respond within 2 business days.
 
