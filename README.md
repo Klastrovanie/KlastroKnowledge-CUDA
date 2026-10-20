@@ -101,8 +101,8 @@ Any commercial implementation of the above pipeline without a license agreement 
 ## Pricing
 
 ### Open Source — Free
-AGPL v3. Research, education, and non-commercial use.
-Network use triggers source disclosure obligation under AGPL v3.
+AGPL v3. Free for research, education and any use that complies with the AGPL v3, including its source disclosure obligation: if you modify the software and offer it over a network, you must make the complete source of your service available under AGPL v3.
+If your organization cannot meet these obligations, use the commercial edition below.
 
 ### Commercial License
 
@@ -114,7 +114,7 @@ It is a production-ready container (MCP server and batch job) that runs in your 
 
 The commercial edition is licensed under its own EULA, not under the AGPL v3, so AGPL obligations do not apply to its use.
 
-**OEM, redistribution, or use of this open-source kernel without AGPL v3 obligations** (for example embedding it in products delivered to your customers), including patent licensing (KR Patent 10-2937626): contact **contact@klastrovanie.com**.
+**OEM, redistribution, or use of this open-source kernel without AGPL v3 obligations** (for example embedding it in products delivered to your customers), including a license under Korean Patent 10-2937626 for use in the Republic of Korea: contact **contact@klastrovanie.com**.
 
 #### How to Inquire
 For commercial licensing or private offer, contact us via 
